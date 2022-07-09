@@ -1,10 +1,11 @@
 module.exports = {
+	darkMode: 'class',
 	content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
 	theme: {
 		extend: {
-			// maxWidth: {
-			// 	16: '16rem',
-			// },
+			maxWidth: {
+				16: '16rem',
+			},
 		},
 	},
 	plugins: [
